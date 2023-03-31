@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 35px;
+    background-color: #363432;
+    color: #b0dd0c;
+}
+
+header, section h2, section h3 {
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+section h2, section p, section h3 {
+    color: #20250a;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header h1, section h2, section h3, header nav li a {
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #A3AB78;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: #BDE038;
+    text-decoration: none;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container img {
+    height: 400px;
+    margin: 32px;
+    margin-top: 5px;
+}
+
+
+section .container {
+    align-items:start;
+
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, section p, section h3 {
+    text-align: justify;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+section p {
+    font-size:20px;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+section button {
+    padding: 20px;
+}
+
+.social-links img {
+    height: 40px;
+    margin-left: 9px;
+}
+
+form button {
+    background-color: #363432;
+    color: #b0dd0c;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #20250a;
+}
+
+input:focus, textarea:focus {
+    outline-color: #20250a;
+}
+
+footer {
+    background-color: #363432;
+    color:#b0dd0c;
+    padding: 16px 0;
+    font-size: 18px;
+}
